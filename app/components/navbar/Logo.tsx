@@ -7,14 +7,18 @@ const Logo = () => {
   const router = useRouter();
 
   return ( 
-    <Image
-      onClick={() => router.push('/')}
-      className="hidden md:block cursor-pointer" 
-      src="/images/logo.png" 
-      height="100" 
-      width="100" 
-      alt="Logo" 
-    />
+    <div className="inline-block">
+      <Image
+        onClick={() => router.push('/')}
+        className="hidden md:block mb-2 cursor-pointer" 
+        src="/images/logo.png" 
+        height="100" 
+        width="100" 
+        alt="Logo" 
+      />
+      <a className="hidden md:block text-[#1a0dab] text-xs cursor-pointer" target="_blank" href="https://github.com/qasirdev/next14-grapghql-property">by using Nextjs, GraphQl</a>
+    </div>
+
    );
 }
  
