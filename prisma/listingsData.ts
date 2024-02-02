@@ -1,0 +1,147 @@
+import { Listing } from "@prisma/client";
+
+export const data:any[] = [
+  {
+    "id": "1",
+    "title": "Cozy Cottage",
+    "description": "A Charming cottage in a peaceful location",
+    "imageSrc": "https://images.unsplash.com/photo-1570129477492-45c003edd2be?dpr=1&fit=crop&w=300&h=362&q=80",
+    "createdAt": new Date("2024-01-21T11:51:27.173+00:00"),
+    "category": "villa",
+    "roomCount": 2,
+    "bathroomCount": 2,
+    "guestCount": 3,
+    "locationValue": "very important",
+    "userId": "65ad053f7d1951e30f945c79",
+    "price": 100
+  },
+  {
+    "id": "2",
+    "title": "Sunny Beach House",
+    "description": "Relax in this beauti`ful beachfront property",
+    "imageSrc": "https://images.unsplash.com/photo-1518780664697-55e3ad937233?dpr=1&fit=crop&w=300&h=362&q=80",
+    "price": 120,
+    "createdAt": new Date("2024-01-21T11:51:27.173+00:00"),
+    "category": "villa",
+    "roomCount": 2,
+    "bathroomCount": 2,
+    "guestCount": 3,
+    "locationValue": "very important",
+    "userId": "65ad053f7d1951e30f945c79"
+  },
+  {
+    "id": "3",
+    "title": "Mountain Retreat",
+    "description": "Escape to the mountains in this cozy cabin",
+    "imageSrc": "https://images.unsplash.com/photo-1554995207-c18c203602cb?dpr=1&fit=crop&w=300&h=362&q=80",
+    "price": 80,
+    "createdAt": new Date("2024-01-21T11:51:27.173+00:00"),
+    "category": "villa",
+    "roomCount": 2,
+    "bathroomCount": 2,
+    "guestCount": 3,
+    "locationValue": "very important",
+    "userId": "65ad053f7d1951e30f945c79"
+  },
+  {
+    "id": "4",
+    "title": "City Skyline Apartment",
+    "description": "Enjoy the city view from this modern apartment",
+    "imageSrc": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?dpr=1&fit=crop&w=300&h=362&q=80",
+    "price": 150,
+    "createdAt": new Date("2024-01-21T11:51:27.173+00:00"),
+    "category": "villa",
+    "roomCount": 2,
+    "bathroomCount": 2,
+    "guestCount": 3,
+    "locationValue": "very important",
+    "userId": "65ad053f7d1951e30f945c79"
+
+  },
+  {
+    "id": "5",
+    "title": "Rustic Farmhouse",
+    "description": "Experience country living in this charming farmhouse",
+    "imageSrc": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?dpr=1&fit=crop&w=300&h=362&q=80",
+    "price": 90,
+    "createdAt": new Date("2024-01-21T11:51:27.173+00:00"),
+    "category": "villa",
+    "roomCount": 2,
+    "bathroomCount": 2,
+    "guestCount": 3,
+    "locationValue": "very important",
+    "userId": "65ad053f7d1951e30f945c79"
+
+  },
+  {
+    "id": "6",
+    "title": "Lakeside Retreat",
+    "description": "Unwind by the lake in this tranquil retreat",
+    "imageSrc": "https://images.unsplash.com/photo-1575517111478-7f6afd0973db?dpr=1&fit=crop&w=300&h=362&q=80",
+    "price": 110,
+    "createdAt": new Date("2024-01-21T11:51:27.173+00:00"),
+    "category": "villa",
+    "roomCount": 2,
+    "bathroomCount": 2,
+    "guestCount": 3,
+    "locationValue": "very important",
+    "userId": "65ad053f7d1951e30f945c79"
+  },
+  {
+    "id": "7",
+    "title": "Urban Loft",
+    "description": "Live in style in this chic urban loft",
+    "imageSrc": "https://images.unsplash.com/photo-1448630360428-65456885c650?dpr=1&fit=crop&w=300&h=362&q=80",
+    "price": 180,
+    "createdAt": new Date("2024-01-21T11:51:27.173+00:00"),
+    "category": "villa",
+    "roomCount": 2,
+    "bathroomCount": 2,
+    "guestCount": 3,
+    "locationValue": "very important",
+    "userId": "65ad053f7d1951e30f945c79"
+  },
+  {
+    "id": "8",
+    "title": "Treehouse Getaway",
+    "description": "Elevate your stay in this unique treehouse",
+    "imageSrc": "https://images.unsplash.com/photo-1484154218962-a197022b5858?dpr=1&fit=crop&w=300&h=362&q=80",
+    "price": 130,
+    "createdAt": new Date("2024-01-21T11:51:27.173+00:00"),
+    "category": "villa",
+    "roomCount": 2,
+    "bathroomCount": 2,
+    "guestCount": 3,
+    "locationValue": "very important",
+    "userId": "65ad053f7d1951e30f945c79"
+
+  },
+  {
+    "id": "9",
+    "title": "Desert Oasis",
+    "description": "Escape to the desert in this secluded oasis",
+    "imageSrc": "https://images.unsplash.com/photo-1518780664697-55e3ad937233?dpr=1&fit=crop&w=300&h=362&q=80",
+    "price": 95,
+    "createdAt": new Date("2024-01-21T11:51:27.173+00:00"),
+    "category": "villa",
+    "roomCount": 2,
+    "bathroomCount": 2,
+    "guestCount": 3,
+    "locationValue": "very important",
+    "userId": "65ad053f7d1951e30f945c79"
+  },
+  {
+    "id": "10",
+    "title": "Historic Manor",
+    "description": "Step back in time with a stay in this historic manor",
+    "imageSrc": "https://images.unsplash.com/photo-1484154218962-a197022b5858?dpr=1&fit=crop&w=300&h=362&q=80",
+    "price": 200,
+    "createdAt": new Date("2024-01-21T11:51:27.173+00:00"),
+    "category": "villa",
+    "roomCount": 2,
+    "bathroomCount": 2,
+    "guestCount": 3,
+    "locationValue": "very important",
+    "userId": "65ad053f7d1951e30f945c79"
+  }
+]
