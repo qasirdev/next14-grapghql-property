@@ -9,6 +9,7 @@ interface AvatarProps {
 const Avatar: React.FC<AvatarProps> = ({ src }) => {
   return ( 
     <Image 
+      unoptimized // <- for image caching, else error
       className="rounded-full" 
       height="30" 
       width="30" 

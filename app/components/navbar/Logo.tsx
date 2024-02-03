@@ -9,6 +9,7 @@ const Logo = () => {
   return ( 
     <div className="inline-block">
       <Image
+        unoptimized // <- for image caching, else error
         onClick={() => router.push('/')}
         className="hidden md:block mb-2 cursor-pointer" 
         src="/images/logo.png" 

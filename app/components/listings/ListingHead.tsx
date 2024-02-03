@@ -42,6 +42,7 @@ const ListingHead: React.FC<ListingHeadProps> = ({
         "
       >
         <Image
+          unoptimized // <- for image caching, else error
           src={imageSrc}
           fill
           className="object-cover w-full"

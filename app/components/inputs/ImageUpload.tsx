@@ -63,6 +63,7 @@ const ImageUpload: React.FC<ImageUploadProps> = ({
               <div className="
               absolute inset-0 w-full h-full">
                 <Image
+                  unoptimized // <- for image caching, else error
                   fill 
                   style={{ objectFit: 'cover' }} 
                   src={value} 

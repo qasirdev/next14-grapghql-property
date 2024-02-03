@@ -86,6 +86,7 @@ const ListingCard: React.FC<ListingCardProps> = ({
           "
         >
           <Image
+            unoptimized // <- for image caching, else error
             fill
             className="
               object-cover 
