@@ -30,6 +30,10 @@ https://cloudinary.com/guides/front-end-development/integrating-cloudinary-with-
 ### For assets:
 https://unsplash.com/s/photos/beach-house
 
+### Vercel Deployment:
+in project settings use install command `npm install --legacy-peer-deps`
+
+
 <!--
 https://www.youtube.com/watch?v=c_-b_isI4vg&t=249s
 https://github.com/AntonioErdeljac/next13-airbnb-clone
