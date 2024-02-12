@@ -17,7 +17,7 @@ const Logo = () => {
         width="100" 
         alt="Logo" 
       />
-      <a className="hidden md:block text-[#1a0dab] text-xs cursor-pointer" target="_blank" href="https://github.com/qasirdev/next14-grapghql-property">by using Nextjs, GraphQl</a>
+      <a className="hidden md:block text-[#1a0dab] text-xs cursor-pointer" target="_blank" href="https://github.com/qasirdev/next14-prisma-property">by using Nextjs, Prisma</a>
     </div>
 
    );
