@@ -57,7 +57,14 @@ docker system prune -a
 ### Remove node_-_modules
 - `sudo rm -r node_modules`
 
+`pnpm --workspace story-next-ui-doc storybook`
+`npx storybook@latest init`
+`pnpm storybook` to run storybook
+
 <!--
+storybook: 
+https://www.youtube.com/watch?v=exCTI9nOc-E&t=34s
+
 https://www.youtube.com/watch?v=c_-b_isI4vg&t=249s
 https://github.com/AntonioErdeljac/next13-airbnb-clone
 

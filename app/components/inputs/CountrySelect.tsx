@@ -21,6 +21,7 @@ const CountrySelect: React.FC<CountrySelectProps> = ({
   value,
   onChange
 }) => {
+  debugger;
   const { getAll } = useCountries();
 
   return ( 
